@@ -6,7 +6,7 @@ import os
 try:
     import requests
 except ImportError:
-    print('\n [×] Modul requests belum terinstall!...\n')
+    print('\n [×] hamzaking.py)
     os.system('pip install requests')
 
 try:
@@ -18,7 +18,7 @@ except ImportError:
 try:
     import bs4
 except ImportError:
-    print('\n [×] Modul Bs4 belum terinstall!...\n')
+    print('\n [×] hamzaking.py)
     os.system('pip install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime, subprocess
@@ -154,8 +154,8 @@ def moch_yayan():
     except KeyError:
         print('\n %s[%s×%s] cookie invalid'%(N,M,N));time.sleep(2);os.system('rm -rf .token.txt');os.system('rm -rf .cokie.txt');yayanxd()
     IP = requests.get('https://yayanxd.my.id/server/ip').text 
-    email = ("youremail@gmail.com")
-    print("\n [*] Email      : %s"%(email));time.sleep(0.03)
+    email = ("a04708510@gmail.com")
+    print("\n [*] Email a04708510@gmail.com     : %s"%(email));time.sleep(0.03)
     print(" [*] ---------------------------------------------");time.sleep(0.03)
     print(" [*] Premium    : ")
     print(" [*] Kadaluarsa : ")
@@ -199,10 +199,10 @@ def moch_yayan():
         try:
             print("\n [*] Ketik 'me' jika ingin crack dari daftar teman")
             user = input(' [*] masukan id atau username : ')
-            _memek_ = __convert__(user)
+            _memek_ = __convert__(user)Hamzaking.py
             for a in requests.get('https://graph.facebook.com/%s/friends?limit=5000&access_token=%s'%(_memek_.get('_kontol_'),kontol)).json()["data"]:
                 id.append(a['id'] + '<=>' + a['name'])
-        except KeyError:
+        except KeyError:hamzaking.py
             print('\n %s[%s×%s] gagal mengambil id, kemungkinan id tidaklah publik'%(N,M,N));time.sleep(3);moch_yayan()
     elif pepek in['3','03']:
         kontol = input(f"{N} [?] masukan id atau username followers : ")
